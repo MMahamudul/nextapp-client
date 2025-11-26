@@ -76,10 +76,7 @@ export default function AboutPage() {
 
       {/* Bottom Note */}
       <div className="mt-16 rounded-xl border bg-gray-50 px-6 py-5 text-center">
-        <p className="text-lg text-gray-700">
-          This project is built as a demonstration of a full-stack application
-          using Next.js, Firebase Authentication, Express, and MongoDB.
-        </p>
+        
       </div>
     </div>
   );
