@@ -84,7 +84,7 @@ export default function LoginPage() {
         {loadingGoogle ? "Signing in..." : "Continue with Google"}
       </button>
 
-      <div className="mb-4 flex items-center gap-2 text-xs text-gray-400">
+      <div className="mb-4 flex items-center gap-2 text-lg text-gray-400">
         <span className="h-px flex-1 bg-gray-200" />
         <span>or sign in with email</span>
         <span className="h-px flex-1 bg-gray-200" />
@@ -111,7 +111,7 @@ export default function LoginPage() {
         />
 
         {error && (
-          <p className="text-xs text-red-600">
+          <p className="text-lg text-red-600">
             {error}
           </p>
         )}

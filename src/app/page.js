@@ -19,7 +19,7 @@ export default function HomePage() {
             </p>
             <div className="flex flex-wrap gap-3 mt-15">
               <Link
-                href="/items"
+                href="/courses"
                 className="rounded-full bg-blue-600 px-6 py-2.5 text-lg font-semibold text-white shadow-sm hover:bg-blue-700"
               >
                 View Courses
@@ -185,7 +185,7 @@ export default function HomePage() {
           </div>
           <div className="flex gap-3">
             <Link
-              href="/items"
+              href="/courses"
               className="rounded-full bg-white px-5 py-2 text-lg font-semibold text-blue-700 hover:bg-blue-50"
             >
               Explore Courses

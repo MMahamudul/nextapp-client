@@ -74,10 +74,7 @@ export default function AboutPage() {
         </div>
       </div>
 
-      {/* Bottom Note */}
-      <div className="mt-16 rounded-xl border bg-gray-50 px-6 py-5 text-center">
-        
-      </div>
+     
     </div>
   );
 }
