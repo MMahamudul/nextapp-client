@@ -132,11 +132,12 @@ export default function ManageCoursesPage() {
                   <td className="px-4 py-3">
                     <div className="flex flex-wrap gap-2 text-xs">
                       <Link
-                        href={`/courses/${course._id}`}
-                        className="rounded-full border px-3 py-1 hover:bg-gray-100"
-                      >
-                        View
-                      </Link>
+  href={`/course-details?id=${course._id}`}
+  className="rounded-full border px-3 py-1 hover:bg-gray-100"
+>
+  View
+</Link>
+
                       <button
                         type="button"
                         onClick={() => handleDelete(course._id)}

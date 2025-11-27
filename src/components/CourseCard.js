@@ -42,11 +42,12 @@ export default function CourseCard({ course }) {
       {/* Bottom Button */}
       <div className="px-4 pb-4 pt-2">
         <Link
-          href={`/courses/${_id}`}
-          className="flex h-9 w-full items-center justify-center rounded-full border border-blue-200 text-xs font-medium text-gray-800 transition hover:bg-blue-50"
-        >
-          View details
-        </Link>
+  href={`/course-details?id=${_id}`}
+  className="flex h-9 w-full items-center justify-center rounded-full border border-blue-200 text-xs font-medium text-gray-800 transition hover:bg-blue-50"
+>
+  View details
+</Link>
+
       </div>
     </div>
   );
